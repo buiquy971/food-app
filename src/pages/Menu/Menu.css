@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.custom-button {
+  width: 100px;
+  height: 40px;
+  background-color: #fbfbfb;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  border-radius: 20px;
+  margin-top: -220px;
+}
+.custom-button:hover {
+  background-color: #d00b0b;
+  color: #fff;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép tự động xuống dòng khi đủ số thẻ */
+  justify-content: space-evenly; /* Căn đều các thẻ div */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-top: -100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.menu-item {
+  width: 250px; /* Độ rộng của mỗi thẻ div */
+  height: 330px;
+  text-align: center; /* Căn giữa nội dung */
+  border: 1px solid #ddd; /* Đường viền */
+  border-radius: 10px; /* Góc bo tròn */
+  margin: 5px; /* Khoảng cách giữa các thẻ div */
+}
+.menu-item > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 20px;
+}
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.menu-item > h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.menu-item > span {
+  color: #d00b0b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+}
+
+.order {
+  background: var(--neutral-02, #b4b4ab);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+}
+.introduce {
+  text-align: center;
+  line-height: 2;
+  width: 20%;
+  margin-left: 100px;
+  font-family: Playfair Display;
+  font-style: normal;
+}
+.introduce > p {
+  font-family: DM Sans;
+}
+.logobox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 300px;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  height: 50px;
+  gap: 10px;
+  margin-top: 10px;
+}
+.logo2 {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  height: 50px;
+  gap: 10px;
+  margin-left: -45px;
+}
+.logo3 {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  height: 50px;
+  gap: 10px;
+}

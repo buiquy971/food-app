@@ -1,0 +1,38 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #eaeded;
+}
+.logo {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  list-style: none;
+}
+.menu li:hover {
+  color: #088178;
+}
+.button {
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  border-radius: 100px;
+  padding: 12px 24px;
+}
+.button:hover {
+  background-color: red;
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background: #474747;
+    color: #fff;
+  }
+  .topleft {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 70px;
+    gap: 15px;
+  }
+  .topright {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 70px;
+    gap: 5px;
+  }
+  
