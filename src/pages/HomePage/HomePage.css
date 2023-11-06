@@ -277,6 +277,7 @@
 .illustrating {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 10px;
   padding-top: 30px;
   font-family: DM Sans;
