@@ -57,8 +57,12 @@ function Navbar() {
             <Link to="/menu" style={{ textDecorationLine: "none" }}>
               <li>Menu</li>
             </Link>
-            <li>Pages</li>
-            <li>Contact</li>
+            <Link to="/pagesbistro" style={{ textDecorationLine: "none" }}>
+              <li>Pages</li>
+            </Link>
+            <Link to="/contact" style={{ textDecorationLine: "none" }}>
+              <li>Contact</li>
+            </Link>
           </ul>
         </div>
         <Link to="/book">

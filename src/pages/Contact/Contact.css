@@ -1,0 +1,106 @@
+.contact-pages {
+  background: var(--neutral-02, #ecece2);
+  text-align: center;
+  height: 600px;
+  padding-top: 200px;
+}
+.submitcontact {
+  background: var(--neutral-01, #f9f8f8);
+  height: 530px;
+  position: relative;
+}
+.form-submitcontact {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 16px;
+  padding: 30px 50px;
+  justify-content: center;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 43px;
+  padding-bottom: 49px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: auto;
+  width: 812px;
+  height: 604px;
+  background-color: #fff;
+}
+.input-stylecontact {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 72px;
+  border: 1px solid #dbdfd0;
+}
+
+.contact-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: var(--neutral-01, #f9f8f8);
+  width: 1343px;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+.contact-method > div > h4 {
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.call-us {
+  width: 237.3px;
+}
+.call-us > p {
+  color: #ad343e;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+  margin-top: 15px;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  width: 237.3px;
+}
+.hours > p,
+span {
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.hours > p {
+  margin-top: 20px;
+}
+.our-location {
+  display: flex;
+  flex-direction: column;
+  width: 237.3px;
+}
+.our-location > p,
+span {
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.our-location > p {
+  margin-top: 20px;
+}
