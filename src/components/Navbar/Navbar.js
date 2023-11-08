@@ -48,19 +48,19 @@ function Navbar() {
 
         <div>
           <ul className="menu">
-            <Link to="/" style={{ textDecorationLine: "none" }}>
+            <Link to="/" style={{ textDecorationLine: "none", color: "black"}} >
               <li>Home</li>
             </Link>
-            <Link to="/about" style={{ textDecorationLine: "none" }}>
+            <Link to="/about" style={{ textDecorationLine: "none", color: "black" }}>
               <li>About</li>
             </Link>
-            <Link to="/menu" style={{ textDecorationLine: "none" }}>
+            <Link to="/menu" style={{ textDecorationLine: "none", color: "black" }}>
               <li>Menu</li>
             </Link>
-            <Link to="/pagesbistro" style={{ textDecorationLine: "none" }}>
+            <Link to="/pagesbistro" style={{ textDecorationLine: "none", color: "black" }}>
               <li>Pages</li>
             </Link>
-            <Link to="/contact" style={{ textDecorationLine: "none" }}>
+            <Link to="/contact" style={{ textDecorationLine: "none", color: "black" }}>
               <li>Contact</li>
             </Link>
           </ul>
