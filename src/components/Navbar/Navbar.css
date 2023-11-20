@@ -36,3 +36,28 @@
   background-color: red;
   color: #fff;
 }
+/* tabblet : width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .navbar {
+    padding: 20px 40px; /* Điều chỉnh padding theo mong muốn */
+    width: 754px;
+    height: 130px;
+  }
+
+  .menu {
+    padding: 20px; /* Điều chỉnh padding theo mong muốn */
+  }
+
+  .logo {
+    padding: 20px; /* Điều chỉnh padding theo mong muốn */
+    gap: 5px; /* Điều chỉnh khoảng cách giữa các phần tử trong logo */
+  }
+
+  .menu {
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các mục menu */
+  }
+  
+  .button {
+    padding: 10px 20px; /* Điều chỉnh padding theo mong muốn */
+  }
+}

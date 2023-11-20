@@ -337,3 +337,156 @@
   font-style: normal;
   font-weight: 500;
 }
+
+/* tabblet : width >= 740px and width < 1024px */
+/* Các điều chỉnh cho kích thước màn hình từ 740px đến 1024px */
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .background-div {
+    height: 400px; /* Điều chỉnh chiều cao của background-div */
+    width: 754px;
+  }
+
+  .intro-home {
+    padding-top: 150px; /* Giảm khoảng cách trên cùng của phần giới thiệu */
+    font-size: 18px; /* Giảm kích thước font chữ */
+  }
+  .header-home {
+    justify-content: space-between; /* Đưa top bar về hai bên */
+  }
+  .header-button {
+    width: 80px; /* Điều chỉnh chiều rộng của nút */
+  }
+
+  .button-home {
+    padding-top: 15px; /* Giảm khoảng cách giữa các nút */
+  }
+
+  .browse {
+    padding-top: 15px; /* Giảm khoảng cách trên cùng của phần duyệt */
+    padding-left: 20px; /* Giảm khoảng cách bên trái của phần duyệt */
+    width: 754px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 754px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    width: 754px; /* Điều chỉnh chiều rộng của phần liên hệ */
+    height: 800px;
+  }
+  .img-home {
+    width: 400px; /* Điều chỉnh chiều rộng của hình ảnh trong liên hệ */
+    margin-left: -150px;
+  }
+
+  .visit {
+    width: 250px; /* Điều chỉnh chiều rộng của phần ghé thăm */
+    margin-left: 50px;
+  }
+
+  .hotline {
+    gap: 50px; /* Tăng khoảng cách giữa hotline và phần liên hệ */
+  }
+  .services {
+    width: 754px;
+    height: 1600px;
+  }
+  .services > h1,
+  .blog > h1 {
+    width: 400px; /* Điều chỉnh chiều rộng của tiêu đề trong các phần services và blog */
+  }
+  .advertisement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-type > img {
+    height: 200px; /* Giảm chiều cao của hình ảnh loại dịch vụ */
+  }
+
+  .fastest-food {
+    height: 1300px; /* Cho phép nội dung cuộn khi kích thước màn hình giảm */
+    width: 754px;
+  }
+  .customers {
+    width: 754px;
+  }
+  .Customers-Say {
+    width: 754px;
+  }
+  .customers > h1 {
+    width: 400px;
+  }
+  .customers {
+    flex-direction: column; /* Đưa phần khách hàng về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+  }
+
+  .Customers-Say {
+    flex-direction: column; /* Đưa phần nhận xét về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+  }
+
+  .user {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần người dùng */
+  }
+
+  .user-infor {
+    flex-direction: column; /* Đưa phần thông tin người dùng về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+  }
+
+  .user > h1 {
+    margin-bottom: 10px; /* Tăng khoảng cách giữa tiêu đề và nội dung */
+  }
+  .food-home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px; /* Giảm khoảng cách trên cùng của phần thức ăn */
+  }
+  .user {
+    width: 300px; /* Điều chỉnh chiều rộng của phần người dùng trong phần Customers */
+  }
+  .blog {
+    width: 754px;
+    height: 1900px;
+  }
+  .illustrating {
+    display: flex;
+    flex-direction: column;
+  }
+  .start {
+    width: 754px;
+  }
+  .footer,
+  .blog > h1,
+  .hamburger {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+  }
+
+  .hamburger {
+    gap: 5px; /* Giảm khoảng cách giữa các phần tử trong hamburger */
+  }
+
+  .pizza > img {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của hình ảnh pizza */
+  }
+
+  .pizza > span,
+  .pizza > p {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của văn bản trong pizza */
+  }
+  .home-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+}

@@ -108,3 +108,18 @@
   height: 50px;
   gap: 10px;
 }
+
+/* CSS cho màn hình nhỏ (min-width: 46.25em) and (max-width: 63.9375em) */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .order {
+    flex-direction: column; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    width: 754px;
+  }
+  .logobox {
+    margin-left: -300px;
+    margin-bottom: 20px;
+  }
+}

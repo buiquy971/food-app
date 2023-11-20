@@ -115,7 +115,6 @@
   width: 1343px;
   height: 550px;
   padding-left: 210px;
-  
 }
 .intro-about {
   display: flex;
@@ -130,12 +129,12 @@
   font-size: 31px;
   font-style: normal;
 }
-.about-total{
+.about-total {
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
-.about-number{
+.about-number {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,4 +150,213 @@
   height: 600px;
   padding: 50px 0px 100px 150px;
 }
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .about {
+    width: 754px;
+    height: auto;
+  }
+  .about > h1,
+  p {
+    width: 300px;
+  }
+  .visit-about {
+    margin-left: 0; /* Đưa phần ghé thăm về giữa */
+    margin-bottom: -150px; /* Giảm khoảng cách với phần trên */
+  }
 
+  .text-about {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần văn bản */
+    padding-top: 50px; /* Tăng khoảng cách trên cùng của phần văn bản */
+  }
+
+  .bg-about {
+    width: 754px;
+  }
+
+  .icon-about {
+    margin-top: 50px; /* Giảm khoảng cách với phần trên */
+    margin-left: 0; /* Đưa biểu tượng về giữa */
+  }
+
+  .icon-about > p {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của văn bản */
+    margin-left: 0; /* Đưa văn bản về giữa */
+  }
+
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    width: 754px;
+    height: auto;
+  }
+  .illustrating-about {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần minh họa */
+    padding: 50px 20px 100px 20px; /* Giảm khoảng cách lề ở các phía */
+  }
+
+  .about-total {
+    flex-direction: column; /* Đưa phần tổng số về hiển thị dọc */
+    gap: 10px; /* Giảm khoảng cách giữa các phần tử */
+  }
+
+  .about-number {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần số liệu */
+  }
+  .infor-about{
+    width: 754px;
+    height: auto;
+  }
+  .intro-about{
+    margin-left: -150px;
+    width: 250px;
+  }
+  .customers {
+    flex-direction: column; /* Đưa phần khách hàng về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+    height: auto;
+  }
+
+  .Customers-Say {
+    flex-direction: column; /* Đưa phần nhận xét về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+  }
+
+  .user {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần người dùng */
+  }
+
+  .user-infor {
+    flex-direction: column; /* Đưa phần thông tin người dùng về hiển thị dọc */
+    align-items: center; /* Căn giữa nội dung */
+  }
+
+  .user > h1 {
+    margin-bottom: 10px; /* Tăng khoảng cách giữa tiêu đề và nội dung */
+  }
+  .end {
+    padding-left: 227px;
+  }
+}
+/* iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: auto;
+  }
+  
+  .img-about {
+    width: 100%;
+  }
+  
+  .img-about > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .visit-about {
+    width: auto;
+    margin: 0;
+    margin-bottom: 20px;
+    position: static;
+  }
+  
+  .text-about {
+    width: 100%;
+  }
+  
+  .bg-about {
+    width: auto;
+    height: 300px;
+  }
+  
+  .icon-about {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .icon-about > p {
+    width: auto;
+    margin-left: 0;
+  }
+  
+  .content-about,
+  .infor-about {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .infor-about {
+    padding-left: 0;
+  }
+  
+  .illustrating-about {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}
+/*Mobile devices*/
+@media only screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: auto;
+  }
+
+  .img-about {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .img-about > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .visit-about {
+    width: auto;
+    margin: 0;
+    margin-bottom: 15px;
+    position: static;
+  }
+
+  .text-about {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .bg-about {
+    width: auto;
+    height: 200px;
+  }
+
+  .icon-about {
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .icon-about > p {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .content-about,
+  .infor-about {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .infor-about {
+    padding-left: 0;
+  }
+
+  .illustrating-about {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+}

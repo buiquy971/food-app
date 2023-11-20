@@ -53,3 +53,41 @@
   padding-top: 130px;
   padding-bottom: 85px;
 }
+/* CSS cho màn hình nhỏ (min-width: 46.25em) and (max-width: 63.9375em) */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .footer {
+    padding: 80px 30px; /* Điều chỉnh padding theo mong muốn */
+    gap: 40px; /* Điều chỉnh khoảng cách giữa các phần tử trong footer */
+  }
+
+  .original-logo {
+    gap: 10px; /* Điều chỉnh khoảng cách giữa các phần tử trong original-logo */
+  }
+
+  .icon {
+    padding-top: 10px; /* Điều chỉnh padding theo mong muốn */
+    gap: 5px; /* Điều chỉnh khoảng cách giữa các phần tử trong icon */
+  }
+
+  .text1 {
+    padding-top: 10px; /* Điều chỉnh padding theo mong muốn */
+  }
+
+  .pages {
+    padding-left: 15px; /* Điều chỉnh padding-left theo mong muốn */
+  }
+
+  .description,
+  .pages {
+    flex-basis: auto; /* Đảm bảo flex-basis tự động cho màn hình nhỏ */
+  }
+
+  .picture {
+    gap: 15px; /* Điều chỉnh khoảng cách giữa các phần tử trong picture */
+  }
+
+  .picture > img {
+    width: 53%; /* Đảm bảo hình ảnh điền vào đúng chiều rộng của container */
+    height: auto; /* Tự động tính toán chiều cao để duy trì tỷ lệ khung hình */
+  }
+}
